@@ -1,0 +1,5 @@
+user_name = input("enter your name: ")
+user_lastname = input("enter your lastname: ")
+user_age = input("enter your age: ")
+user_gmail = input("enter your mail: ")
+print(f"your name is", user_name, "your lastname is",user_lastname,"your age is",user_age,"your email is ",user_gmail)
