@@ -1,0 +1,24 @@
+.xazi1 {
+    text-decoration: overline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+}
+
+.xazi2 {
+    text-decoration: underline;
+    text-decoration-color: green;
+    text-decoration-style: dotted;
+}
+
+.xazi3 {
+    text-align: center;
+    text-decoration: overline;
+    text-decoration-color: black; 
+}
+
+.xazi4 {
+    text-align: justify;
+}
+.xazi5 {
+    text-shadow: 6px 4px;
+}
