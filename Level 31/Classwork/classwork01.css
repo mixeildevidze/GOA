@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+div {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.top {
+    top: 10px;
+    left: 50%;
+}
+
+.bottom {
+    bottom: 10px;
+    left: 50%;
+
+}
+
+.left {
+    left: 10px;
+    top: 50%;
+}
+
+.right {
+    right: 10px;
+    top: 50%;
+}
