@@ -1,0 +1,12 @@
+input[type="text"] {
+    border: 1px solid blue;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  input[type="search"] {
+    border: 1px solid green;
+  }

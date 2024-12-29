@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&family=Oswald:wght@200..700&family=Kanit:wght@100;400;700&display=swap');
+
+#p1 {
+    font-family: 'Tiny5', Arial, Helvetica, sans-serif;
+}
+
+#p2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+#p3 {
+    font-family: 'Kanit', sans-serif;
+}
+
+#zoomer:hover {
+    color: red;
+}
+
+#zoomer:visited {
+    color: black;
+}
+
+#alta:hover {
+    color: red;
+}
+
+#alta:link {
+    color: black;
+}
+
+/* Button styles */
+#button1 {
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    padding: 15px 32px;
+    text-align: center; 
+    text-decoration: none;
+}
+
+#button1:hover {
+    background-color: #45a049; /
+    color: white; 
+}

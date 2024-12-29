@@ -1,0 +1,19 @@
+#p1{
+
+
+    text-decoration: overline;
+    text-decoration-color: red;
+    text-decoration-style: dotted;
+}
+#p2{
+    text-transform: capitalize; 
+    text-transform: lowercase; 
+}
+#p3{
+    text-align: right;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+#p4{
+    text-shadow: 2px 2px 4px rgba(255, 0, 0, 0.8);
+}
