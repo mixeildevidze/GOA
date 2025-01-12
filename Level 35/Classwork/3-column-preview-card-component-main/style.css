@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&family=Big+Shoulders+Display:wght@700&display=swap');
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 2rem auto;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.box {
+    padding: 40px;
+    text-align: center;
+}
+
+.box img {
+    margin-bottom: 20px;
+}
+
+.box h2 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    font-size: 30px;
+}
+
+.box p {
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.box a {
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    padding: 13px 27px;
+    border-radius: 26px;
+    display: inline-block;
+    border: 2px solid hsl(0, 0%, 95%);
+    font-weight: bold;
+}
+
+.box1 {
+    background: hsl(31, 77%, 52%);
+}
+
+.box1 a {
+    color: hsl(31, 77%, 52%);
+}
+
+.box2 {
+    background: hsl(184, 100%, 22%);
+}
+
+.box2 a {
+    color: hsl(184, 100%, 22%);
+}
+
+.box3 {
+    background: hsl(179, 100%, 13%);
+}
+
+.box3 a {
+    color: hsl(179, 100%, 13%);
+}
+
+/* Responsive Design */
+
+@media (max-width: 1440px) {
+    .wrapper {
+        padding: 1rem;
+    }
+}
+@media (max-width: 768px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .box {
+        text-align: left;
+    }
+}

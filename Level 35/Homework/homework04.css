@@ -1,0 +1,11 @@
+.container {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    transition: transform 1s linear; /* აუცილებელია ანიმაციისთვის */
+}
+
+.container:hover {
+    transform: rotate(-360deg);
+}
