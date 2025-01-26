@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    animation: myanim 3s linear infinite;
+}
+
+
+@keyframes myanim {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(100vw);
+    }
+    100% {
+        transform: translateX(0); 
+    }
+}

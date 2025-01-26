@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation: myAnimation 3s infinite ease-in-out;
+}
+
+@keyframes myAnimation {
+    0% {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        transform: translate(0, 0) rotate(0deg);
+    }
+    25% {
+        width: 120px;
+        height: 120px;
+        background-color: orange;
+        transform: translate(50px, 0) rotate(45deg);
+    }
+    50% {
+        width: 140px;
+        height: 140px;
+        background-color: yellow;
+        transform: translate(50px, 50px) rotate(90deg);
+    }
+    100% {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        transform: translate(0, 50px) rotate(180deg);
+    }
+}
