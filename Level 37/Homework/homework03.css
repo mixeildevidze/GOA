@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    animation-name: moveBox;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes moveBox {
+    0% {
+        left: 0;
+        background-color: blue;
+        transform: rotate(0deg);
+    }
+    25% {
+        left: 200px;
+        background-color: green;
+        transform: rotate(90deg);
+    }
+    50% {
+        left: 200px;
+        background-color: orange;
+        transform: rotate(180deg);
+    }
+    75%{
+        left: 0px;
+        background-color: purple;
+        transform: rotate(270deg);
+    }
+    100% {
+        left: 0;
+        background-color: blue;
+        transform: rotate(360deg);
+    }
+}
